@@ -1,7 +1,12 @@
 $schema: 1.0
-name: project-sample-1
-image: microsoftwindowsdesktop_windows-ent-cpc_win11-21h2-ent-cpc-m365
+name: ear-demo
+image: microsoftwindowsdesktop_windows-ent-cpc_win11-24H2-ent-cpc
 tasks:
-    - name: choco
+    - name: ~/winget
+      description: Install Visual Studio Code
       parameters:
-        package: notepadplusplus
+        package:  Microsoft.VisualStudioCode
+    - name: ~/winget
+      description: Install AZD
+      parameters:
+        package:  Microsoft.Azd

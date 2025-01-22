@@ -2,6 +2,6 @@ $schema: 1.0
 name: img-def-with-failed
 image: microsoftwindowsdesktop_windows-ent-cpc_win11-21h2-ent-cpc-m365
 tasks:
-    - name: choco
+    - name: choc
       parameters:
         package: a

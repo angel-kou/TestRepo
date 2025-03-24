@@ -1,12 +1,8 @@
 $schema: 1.0
-name: ear~demo
+name: invalid
 image: microsoftwindowsdesktop_windows-ent-cpc_win11-24H2-ent-cpc
 tasks:
     - name: ~/winget
       description: Install Visual Studio Code
       parameters:
-        package:  Microsoft.VisualStudioCode
-    - name: ~/winget
-      description: Install AZD
-      parameters:
-        package:  Microsoft.Azd
+        package:  Mi

@@ -1,6 +1,6 @@
 $schema: 1.0
 name: custom-image
-image: angel.sh.gallery/angel.sh.image
+image: angel.sh.gallery/angel.image
 tasks:
     - name: ~/winget
       description: Install Visual Studio Code

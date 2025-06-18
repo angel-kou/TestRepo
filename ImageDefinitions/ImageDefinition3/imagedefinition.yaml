@@ -1,7 +1,10 @@
 $schema: 1.0
-name: img-def
-image: microsoftwindowsdesktop_windows-ent-cpc_win11-24H2-ent-cpc
+name: sc5_vs_imaging
+image: microsoftvisualstudio_visualstudio2019plustools_vs-2019-ent-general-win11-m365-gen2
 tasks:
-    - name: choco
+    - name: gitclone
+      description: Clone this repository into C:\\SC5
       parameters:
-        package: python
+        repositoryUrl: https://github.com/Dorisls/LJ-fork-Deployment-Environments-PrivatePreview.git
+        directory: C:\\SC5
+        pat: '{{https://lj-fidalgo-keyvault.vault.azure.net/secrets/LJ-fidalgo/76b32af9a752441cb0605264eecc83b1}}'

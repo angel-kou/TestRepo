@@ -5,5 +5,5 @@ tasks:
     - name: powershell
       description: Install Angular CLI
       parameters:
-         script: |
-          npm install -g @angular/cli
+          command: |
+            npm install -g @angular/cli

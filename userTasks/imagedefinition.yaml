@@ -1,0 +1,18 @@
+$schema: '1.0'
+name: 'support-case-2506200030002216'
+image: 'DevCenterdboxdsopeasdddpjdso014917/dev-dso-std-img'
+description: 'This definition is the standard image for all project'
+ 
+tasks:
+  - name: ~/powershell
+    timeout: 7200
+    parameters:
+      command: |
+        mkdir 'c:/support-case-2506200030002216'
+        
+userTasks:
+  - name: ~/powershell
+    timeout: 7200
+    parameters:
+      command: |
+        mkdir 'c:/support-case-2506200030002216-under-user-task'

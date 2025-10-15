@@ -1,6 +1,6 @@
 $schema: '1.0'
 name: 'support-case-2506200030002216'
-image: 'DevCenterdboxdsopeasdddpjdso014917/dev-dso-std-img'
+image: microsoftvisualstudio_visualstudio2019plustools_vs-2019-ent-general-win11-m365-gen2
 description: 'This definition is the standard image for all project'
  
 tasks:

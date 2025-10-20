@@ -7,7 +7,3 @@ tasks:
       description: Install Visual Studio Code
       parameters:
         package:  Microsoft.VisualStudioCode
-    - name: ~/winget
-      description: Install AZD
-      parameters:
-        package:  Microsoft.Azd

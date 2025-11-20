@@ -25,9 +25,6 @@ tasks:
       parameters:
         command:  "Write-Host 'Hello from PowerShell'"
         
-    - name: tasks/install-chocolatey
-      description: Install Chocolatey package manager for software installation
-      
     - name: choco
       description: Install Git version control system
       parameters:

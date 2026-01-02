@@ -5,10 +5,6 @@ description: "Marketplace image with hibernation enabled for testing purposes"
 
 tasks:
   - name: winget
-    parameters:
-      downloadUrl: 'https://raw.githubusercontent.com/contoso-co/common-eng-sys/msft-git/dsc-configurations/common-config.dsc.yaml'
-
-  - name: winget
     description: Install AZD
     parameters:
       package:  Microsoft.Azd
